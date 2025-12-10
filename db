@@ -1,0 +1,31 @@
+"visitantes": [
+    { "id": 1, "nome": "João Pereira", "cpf": "99999999999", "motivo": "Visita familiar", "entrada": "2025-01-15 14:30", "saida": "", "idUnidade": 1 },
+    { "id": 2, "nome": "Mariana Souza", "cpf": "88888888888", "motivo": "Entrega", "entrada": "2025-01-15 10:00", "saida": "2025-01-15 10:20", "idUnidade": 2 }
+  ],
+
+  "espacosComuns": [
+    { "id": 1, "nome": "Salão de Festas", "capacidade": 50, "regras": "Som permitido até 22h", "idCondominio": 1 },
+    { "id": 2, "nome": "Churrasqueira", "capacidade": 15, "regras": "Limpeza obrigatória após uso", "idCondominio": 1 },
+    { "id": 3, "nome": "Quadra Poliesportiva", "capacidade": 20, "regras": "Agendamento obrigatório", "idCondominio": 2 }
+  ],
+
+  "reservas": [
+    { "id": 1, "dataReserva": "2025-02-10", "horarioInicio": "18:00", "horarioFim": "23:00", "idMorador": 1, "idEspacoComum": 1 },
+    { "id": 2, "dataReserva": "2025-02-15", "horarioInicio": "10:00", "horarioFim": "14:00", "idMorador": 2, "idEspacoComum": 2 }
+  ],
+
+  "avisos": [
+    { "id": 1, "titulo": "Manutenção da Água", "descricao": "Abastecimento será interrompido das 14h às 18h", "data": "2025-01-20", "idCondominio": 1 },
+    { "id": 2, "titulo": "Reunião Geral", "descricao": "Assembleia marcada para o dia 25/01", "data": "2025-01-18", "idCondominio": 2 }
+  ],
+
+  "porteiros": [
+    { "id": 1, "nome": "José Almeida", "cpf": "77777777777", "telefone": "99999999999", "turno": "Diurno", "idCondominio": 1 },
+    { "id": 2, "nome": "Rafael Gomes", "cpf": "66666666666", "telefone": "88888888888", "turno": "Noturno", "idCondominio": 2 }
+  ],
+
+  "manutencoes": [
+    { "id": 1, "servico": "Reparo no portão", "empresa": "Portões Brasil", "data": "2025-01-10", "valor": 450.00, "status": "Concluído", "idCondominio": 1 },
+    { "id": 2, "servico": "Troca de lâmpadas", "empresa": "Eletricista Jr", "data": "2025-01-08", "valor": 180.00, "status": "Pendente", "idCondominio": 2 }
+  ]
+}
